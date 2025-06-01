@@ -1,7 +1,8 @@
 import time
 import Jetson.GPIO as GPIO
+from adafruit_servokit import ServoKit
 
-
+GPIO.cleanup()
 # sets up mission switch
 pin_number = 32	# what pin number is it connected to, needs to be a GPIO pin found on pinout
 GPIO.setmode(GPIO.BOARD)
@@ -15,22 +16,23 @@ while (GPIO.input(pin_number) == GPIO.HIGH):
 	time.sleep(0.5)
 print("LOW")
 
-from adafruit_servokit import ServoKit
+
 # thrusters
 # Initialize PCA9685 with 16 channels,
 kit = ServoKit(channels=16)
 
 #Set correct PWM range for ESCs: 1100–1900 µs,
-kit.servo[7].set_pulse_width_range(1100, 1900)
+# A1 = kit.servo[7].set_pulse_width_range(1100, 1900)
+A1 = kit.servo[7].angle = 90
 
 class Motor:
-    def init(self, channel):
+    def __init__(self, channel):
         self.channel = channel
         self.speed = 90  # Default to neutral (1500 µs)
-        self.prev_speed = None  # Force update on first run
+        self.prev_speed = self.speed   # Force update on first run
 
-    def set_speed(self, angle):
-        self.speed = angle
+    def set_speed(self, speed):
+        self.speed = speed
 
     def run(self):
         if self.prev_speed != self.speed:
@@ -57,11 +59,17 @@ time.sleep(5)  # Wait 5 seconds for ESC to arm (listen for 2 beeps)
 
 
 # run thrusters
-while True:
-	# running speed
-	A1.set_speed(80)  # ~1400 µs (reverse)
-	A1.run()
-	print(f"Thruster speed: {A1.self_speed}")
-	time.sleep(1)
+# running speed
+A1.set_speed(80)  # ~1400 µs (reverse)
+A1.run()
+print(f"Thruster speed: {A1.speed}")
+time.sleep(1)
+
+while (GPIO.input(pin_number) == GPIO.HIGH):
+	print("running")
+	
+A1.set_speed(90)  # ~1400 µs (reverse)
+A1.run()
+print(f"Thruster speed: {A1.speed}")
 
 
