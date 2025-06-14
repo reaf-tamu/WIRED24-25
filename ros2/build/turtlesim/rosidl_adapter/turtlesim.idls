@@ -1,0 +1,8 @@
+/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

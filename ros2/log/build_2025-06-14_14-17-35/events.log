@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.000767] (-) JobUnselected: {'identifier': 'packageSample'}
+[0.000996] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001485] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001827] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099332] (-) TimerEvent: {}
+[0.200276] (-) TimerEvent: {}
+[0.301182] (-) TimerEvent: {}
+[0.402125] (-) TimerEvent: {}
+[0.503080] (-) TimerEvent: {}
+[0.604383] (-) TimerEvent: {}
+[0.618747] (py_pubsub) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "setup.py", line 1, in <module>\n    from setuptools import setup\n  File "/home/wiredauv2024/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 27, in <module>\n    from .dist import Distribution\n  File "/home/wiredauv2024/.local/lib/python3.8/site-packages/setuptools/dist.py", line 30, in <module>\n    from . import (\n  File "/home/wiredauv2024/.local/lib/python3.8/site-packages/setuptools/_entry_points.py", line 45, in <module>\n    def validate(eps: metadata.EntryPoints):\nAttributeError: module \'importlib_metadata\' has no attribute \'EntryPoints\'\n\n'}
+[0.620474] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 1}
+[0.630138] (-) EventReactorShutdown: {}

@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/wiredauv2024/AUV/WIRED24-25/ros2/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/home/wiredauv2024/AUV/WIRED24-25/ros2/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/home/wiredauv2024/AUV/WIRED24-25/ros2/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/home/wiredauv2024/AUV/WIRED24-25/ros2/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/home/wiredauv2024/AUV/WIRED24-25/ros2/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/home/wiredauv2024/AUV/WIRED24-25/ros2/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/home/wiredauv2024/AUV/WIRED24-25/ros2/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/wiredauv2024/AUV/WIRED24-25/ros2/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

@@ -1,0 +1,4 @@
+Invoking command in '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim -- -j6 -l6
+Invoked command in '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim -- -j6 -l6
+Invoking command in '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim
+Invoked command in '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim

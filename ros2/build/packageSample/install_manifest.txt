@@ -1,0 +1,15 @@
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/ament_index/resource_index/package_run_dependencies/packageSample
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/ament_index/resource_index/parent_prefix_path/packageSample
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/environment/ament_prefix_path.sh
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/environment/ament_prefix_path.dsv
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/environment/path.sh
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/environment/path.dsv
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/local_setup.bash
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/local_setup.sh
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/local_setup.zsh
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/local_setup.dsv
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/package.dsv
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/ament_index/resource_index/packages/packageSample
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/cmake/packageSampleConfig.cmake
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/cmake/packageSampleConfig-version.cmake
+/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/package.xml

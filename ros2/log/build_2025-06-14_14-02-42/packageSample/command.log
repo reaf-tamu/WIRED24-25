@@ -1,0 +1,4 @@
+Invoking command in '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample -- -j6 -l6
+Invoked command in '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample -- -j6 -l6
+Invoking command in '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample
+Invoked command in '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample

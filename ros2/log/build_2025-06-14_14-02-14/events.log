@@ -1,0 +1,403 @@
+[0.000000] (-) TimerEvent: {}
+[0.000563] (packageSample) JobQueued: {'identifier': 'packageSample', 'dependencies': OrderedDict()}
+[0.000944] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001616] (packageSample) JobStarted: {'identifier': 'packageSample'}
+[0.098972] (-) TimerEvent: {}
+[0.162085] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.185813] (packageSample) JobProgress: {'identifier': 'packageSample', 'progress': 'cmake'}
+[0.187305] (packageSample) Command: {'cmd': ['/usr/bin/cmake', '/home/wiredauv2024/AUV/WIRED24-25/ros2/src/packageSample', '-DCMAKE_INSTALL_PREFIX=/home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample'], 'cwd': '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wiredauv2024'), ('SSH_AGENT_PID', '4460'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/wiredauv2024'), ('OLDPWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4290'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wiredauv2024'), ('JOURNAL_STREAM', '8:72246'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wiredauv2024'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/wiredauv2024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wiredauv2024-desktop:@/tmp/.ICE-unix/4495,unix/wiredauv2024-desktop:/tmp/.ICE-unix/4495'), ('INVOCATION_ID', '6a20ee04c431451e971842b80dff1d0a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87d58423_152e_4180_b6a5_bf638d2b08a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.199039] (-) TimerEvent: {}
+[0.299497] (-) TimerEvent: {}
+[0.322881] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.399594] (-) TimerEvent: {}
+[0.461750] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.463655] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim', '--', '-j6', '-l6'], 'cwd': '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wiredauv2024'), ('SSH_AGENT_PID', '4460'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/wiredauv2024'), ('OLDPWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4290'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wiredauv2024'), ('JOURNAL_STREAM', '8:72246'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wiredauv2024'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/wiredauv2024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wiredauv2024-desktop:@/tmp/.ICE-unix/4495,unix/wiredauv2024-desktop:/tmp/.ICE-unix/4495'), ('INVOCATION_ID', '6a20ee04c431451e971842b80dff1d0a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87d58423_152e_4180_b6a5_bf638d2b08a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.499752] (-) TimerEvent: {}
+[0.600625] (-) TimerEvent: {}
+[0.669419] (packageSample) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.700702] (-) TimerEvent: {}
+[0.801525] (-) TimerEvent: {}
+[0.902679] (-) TimerEvent: {}
+[0.933925] (packageSample) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.953743] (packageSample) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.992228] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[1.001634] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[1.002715] (-) TimerEvent: {}
+[1.103336] (-) TimerEvent: {}
+[1.204327] (-) TimerEvent: {}
+[1.220889] (packageSample) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.304389] (-) TimerEvent: {}
+[1.314313] (packageSample) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.344737] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[1.345651] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_c\n'}
+[1.345975] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[1.346280] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[1.360700] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[1.404647] (-) TimerEvent: {}
+[1.505624] (-) TimerEvent: {}
+[1.585894] (packageSample) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.605681] (-) TimerEvent: {}
+[1.636991] (packageSample) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.639149] (packageSample) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.650253] (packageSample) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.681819] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[1.706018] (-) TimerEvent: {}
+[1.807118] (-) TimerEvent: {}
+[1.907854] (packageSample) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.908601] (-) TimerEvent: {}
+[1.909764] (packageSample) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.998424] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[2.008835] (-) TimerEvent: {}
+[2.109604] (-) TimerEvent: {}
+[2.180861] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[2.201923] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[2.202781] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target mimic\n'}
+[2.202971] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target draw_square\n'}
+[2.209881] (-) TimerEvent: {}
+[2.231491] (packageSample) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.238342] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[2.255814] (packageSample) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.256668] (packageSample) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.258952] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__python\n'}
+[2.310169] (-) TimerEvent: {}
+[2.322589] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.323404] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[2.323584] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[2.360347] (turtlesim) CommandEnded: {'returncode': 0}
+[2.363421] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[2.393776] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim'], 'cwd': '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wiredauv2024'), ('SSH_AGENT_PID', '4460'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/wiredauv2024'), ('OLDPWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4290'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wiredauv2024'), ('JOURNAL_STREAM', '8:72246'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wiredauv2024'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/wiredauv2024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wiredauv2024-desktop:@/tmp/.ICE-unix/4495,unix/wiredauv2024-desktop:/tmp/.ICE-unix/4495'), ('INVOCATION_ID', '6a20ee04c431451e971842b80dff1d0a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87d58423_152e_4180_b6a5_bf638d2b08a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[2.404219] (packageSample) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[2.410196] (-) TimerEvent: {}
+[2.423195] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.423903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[2.424448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim\n'}
+[2.424840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg\n'}
+[2.425294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.425626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.425977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[2.426146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[2.426395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[2.426538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[2.426716] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[2.426851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[2.426982] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[2.427111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[2.427237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[2.427421] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[2.427554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv\n'}
+[2.427723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[2.428010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[2.428301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.428685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[2.428890] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[2.429029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[2.429204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[2.429337] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[2.429464] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[2.429669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[2.429999] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[2.430371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[2.430769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[2.430917] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[2.431051] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[2.431245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[2.431385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[2.431516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[2.431706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[2.432064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[2.432430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[2.432848] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[2.433045] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[2.433184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[2.433357] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[2.433539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[2.433670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action\n'}
+[2.433798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.433925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[2.434115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[2.434252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[2.434382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[2.434676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[2.435022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[2.435311] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[2.435727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[2.436126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim\n'}
+[2.436445] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg\n'}
+[2.438559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.438790] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[2.438942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[2.439079] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.439303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv\n'}
+[2.439440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.439566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[2.439691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[2.439922] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[2.440147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[2.440341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[2.440471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action\n'}
+[2.440597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.440721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[2.440843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[2.440965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim\n'}
+[2.441086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg\n'}
+[2.441209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.441332] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.441451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.441570] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.441689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[2.441809] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv\n'}
+[2.441926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.442042] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.442173] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.442294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.442415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.442584] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.442725] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[2.442849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action\n'}
+[2.442972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.443091] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.443213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[2.443354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.443473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim\n'}
+[2.443593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg\n'}
+[2.443711] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.443834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[2.443954] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[2.444077] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[2.444245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[2.444368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.444489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv\n'}
+[2.444608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.444730] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[2.444849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[2.444970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[2.445091] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[2.445214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[2.445333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[2.445453] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[2.445574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[2.445692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[2.445811] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[2.445930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action\n'}
+[2.446049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.446188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[2.446307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[2.446440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[2.446594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[2.446728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim\n'}
+[2.446847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg\n'}
+[2.446968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.447087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[2.447209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[2.447329] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[2.447450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[2.447569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[2.447688] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[2.447808] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[2.447928] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[2.448044] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv\n'}
+[2.448165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[2.448284] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.448435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[2.448553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[2.448674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[2.448792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[2.448912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[2.449031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[2.449151] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[2.449288] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[2.449409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[2.449529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[2.449648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[2.449768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[2.449886] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[2.450003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[2.450124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[2.450241] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[2.450383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[2.450507] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[2.450662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[2.450787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action\n'}
+[2.450907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.451027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[2.451144] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[2.451257] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[2.451374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[2.451490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim\n'}
+[2.451610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg\n'}
+[2.451727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.451847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[2.451964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[2.452084] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.452227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.452344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv\n'}
+[2.452462] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.452608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.452730] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.452849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[2.452968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[2.453086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.453204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.453321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.453439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[2.453557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[2.453675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[2.453793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action\n'}
+[2.453911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.454028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[2.454162] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.454284] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[2.454403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[2.454522] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[2.454673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[2.454795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[2.510402] (-) TimerEvent: {}
+[2.514835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[2.515432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[2.515671] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[2.515924] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[2.516172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[2.516338] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[2.516473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[2.516614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[2.516743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[2.516868] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[2.517027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[2.517156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[2.517291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[2.517448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[2.517582] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[2.517704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[2.517823] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[2.517943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[2.518064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[2.518216] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[2.518339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[2.518459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[2.518616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.518762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.519226] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.520027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/libturtlesim__python.so\n'}
+[2.520415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[2.520568] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[2.520735] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[2.520892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[2.521040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[2.521212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[2.521378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[2.521558] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[2.521729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[2.521882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[2.522105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[2.522290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[2.522445] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[2.522666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[2.522862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[2.523021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[2.523190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[2.523348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[2.523501] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[2.523625] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[2.523755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[2.523914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[2.524040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[2.524175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[2.524297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[2.524419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[2.524570] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[2.524692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[2.525034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/turtlesim/draw_square\n'}
+[2.525626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/lib/turtlesim/mimic\n'}
+[2.525984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/images\n'}
+[2.526160] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[2.526384] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[2.526584] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[2.526748] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[2.526899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[2.527027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[2.527178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[2.527351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/launch\n'}
+[2.527503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[2.527657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[2.527835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[2.527992] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[2.528147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[2.528272] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[2.528397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[2.528520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[2.528673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[2.528812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[2.528937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[2.529104] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/package.dsv\n'}
+[2.529227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[2.529347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[2.529493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.529649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.529774] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.529938] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[2.530112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.530363] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[2.530732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.530901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.531199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[2.531371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.531544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[2.531729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.531886] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.532059] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.532223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.532401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.532557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.532695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[2.532820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[2.532942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/turtlesim/share/turtlesim/package.xml\n'}
+[2.540019] (turtlesim) CommandEnded: {'returncode': 0}
+[2.610498] (-) TimerEvent: {}
+[2.612145] (packageSample) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.612876] (packageSample) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.627709] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[2.710789] (-) TimerEvent: {}
+[2.811838] (-) TimerEvent: {}
+[2.912898] (-) TimerEvent: {}
+[3.013968] (-) TimerEvent: {}
+[3.115110] (-) TimerEvent: {}
+[3.216198] (-) TimerEvent: {}
+[3.266327] (packageSample) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[3.316310] (-) TimerEvent: {}
+[3.373711] (packageSample) StderrLine: {'line': b'WARNING: Package name "packageSample" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[3.416585] (-) TimerEvent: {}
+[3.601356] (packageSample) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.602162] (-) TimerEvent: {}
+[3.605828] (packageSample) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.608874] (packageSample) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.614104] (packageSample) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.618466] (packageSample) StdoutLine: {'line': b'-- Generating done\n'}
+[3.621613] (packageSample) StdoutLine: {'line': b'-- Build files have been written to: /home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample\n'}
+[3.634031] (packageSample) CommandEnded: {'returncode': 0}
+[3.636022] (packageSample) JobProgress: {'identifier': 'packageSample', 'progress': 'build'}
+[3.636962] (packageSample) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample', '--', '-j6', '-l6'], 'cwd': '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wiredauv2024'), ('SSH_AGENT_PID', '4460'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/wiredauv2024'), ('OLDPWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4290'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wiredauv2024'), ('JOURNAL_STREAM', '8:72246'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wiredauv2024'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/wiredauv2024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wiredauv2024-desktop:@/tmp/.ICE-unix/4495,unix/wiredauv2024-desktop:/tmp/.ICE-unix/4495'), ('INVOCATION_ID', '6a20ee04c431451e971842b80dff1d0a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87d58423_152e_4180_b6a5_bf638d2b08a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[3.702528] (-) TimerEvent: {}
+[3.742457] (packageSample) CommandEnded: {'returncode': 0}
+[3.745676] (packageSample) JobProgress: {'identifier': 'packageSample', 'progress': 'install'}
+[3.746493] (packageSample) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample'], 'cwd': '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wiredauv2024'), ('SSH_AGENT_PID', '4460'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/wiredauv2024'), ('OLDPWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4290'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wiredauv2024'), ('JOURNAL_STREAM', '8:72246'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wiredauv2024'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/wiredauv2024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wiredauv2024-desktop:@/tmp/.ICE-unix/4495,unix/wiredauv2024-desktop:/tmp/.ICE-unix/4495'), ('INVOCATION_ID', '6a20ee04c431451e971842b80dff1d0a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/87d58423_152e_4180_b6a5_bf638d2b08a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wiredauv2024/AUV/WIRED24-25/ros2/build/packageSample'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7a306fa94bdda97d013e95e9684daeff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[3.777632] (packageSample) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.778459] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/ament_index/resource_index/package_run_dependencies/packageSample\n'}
+[3.778746] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/ament_index/resource_index/parent_prefix_path/packageSample\n'}
+[3.779250] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/environment/ament_prefix_path.sh\n'}
+[3.779560] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/environment/ament_prefix_path.dsv\n'}
+[3.779837] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/environment/path.sh\n'}
+[3.780119] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/environment/path.dsv\n'}
+[3.780407] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/local_setup.bash\n'}
+[3.780714] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/local_setup.sh\n'}
+[3.781027] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/local_setup.zsh\n'}
+[3.781310] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/local_setup.dsv\n'}
+[3.781609] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/package.dsv\n'}
+[3.781994] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/ament_index/resource_index/packages/packageSample\n'}
+[3.782362] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/cmake/packageSampleConfig.cmake\n'}
+[3.782803] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/cmake/packageSampleConfig-version.cmake\n'}
+[3.782986] (packageSample) StdoutLine: {'line': b'-- Installing: /home/wiredauv2024/AUV/WIRED24-25/ros2/install/packageSample/share/packageSample/package.xml\n'}
+[3.788991] (packageSample) CommandEnded: {'returncode': 0}
+[3.802799] (-) TimerEvent: {}
+[3.905362] (-) TimerEvent: {}
+[3.953978] (packageSample) JobEnded: {'identifier': 'packageSample', 'rc': 0}
+[3.956754] (-) EventReactorShutdown: {}
